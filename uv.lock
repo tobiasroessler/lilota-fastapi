@@ -372,7 +372,7 @@ wheels = [
 
 [[package]]
 name = "lilota"
-version = "1.2.0"
+version = "1.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "alembic" },
@@ -380,9 +380,9 @@ dependencies = [
     { name = "psycopg-binary" },
     { name = "sqlalchemy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/49/88/0c06cf7ad9c4beb4d413ec996e37937f827b78530a3be7d2458b75e2f843/lilota-1.2.0.tar.gz", hash = "sha256:8a3f28f56911329c3de1e228d70b7bbc56ed640eac8c601639a7b83f1b28af3d", size = 45391, upload-time = "2026-10-11T08:09:15.343Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f1/b1/69cba729bf8e8722767927581832fdd2bfef8a7a87d6b876c51fb7542269/lilota-1.3.0.tar.gz", hash = "sha256:9a8940e6f64b54928e232e78645c5788513d06fb7110f97aa453b79106ffa5af", size = 65926, upload-time = "2026-10-12T20:59:27.374Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/71/c2/b84f2c299abf28d9cebee754e348db162f04e6ff6433a45604bb6a3967c8/lilota-1.2.0-py3-none-any.whl", hash = "sha256:9ea5686da4c40560991b0349d457694f32fe4d3117288ddb1e9632bbf267d16b", size = 44571, upload-time = "2026-10-11T08:09:13.939Z" },
+    { url = "https://files.pythonhosted.org/packages/15/ad/1f7850c76a994452b6842ec78252bf9ed9a23a5bab52ab0304912a7702b7/lilota-1.3.0-py3-none-any.whl", hash = "sha256:13aa1b07af58caf87617ca924cfd0b30854f3322ee0a289ff6a49480c4e75a4d", size = 43432, upload-time = "2026-10-12T20:59:28.595Z" },
 ]
 
 [[package]]
@@ -397,7 +397,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.136.3" },
-    { name = "lilota", specifier = ">=1.2.0" },
+    { name = "lilota", specifier = ">=1.3.0" },
 ]
 
 [[package]]
